@@ -1,5 +1,5 @@
 {
-    "name": "acquia/drupal-spec-tool",
+    "name": "boga881/drupal-spec-tool",
     "description": "A tool for specifying Drupal architecture details and generating automated tests for them",
     "license": "GPL-2.0-only",
     "type": "behat-extension",
@@ -20,7 +20,7 @@
     },
     "require": {
         "php": "^8.1",
-        "drupal/core": "^10.0.0-alpha1",
+        "drupal/core": "^9.0 || ^10.0.0-alpha1",
         "drupal/drupal-extension": "dev-master",
         "traviscarden/behat-table-comparison": "^0.3"
     },
